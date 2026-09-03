@@ -45,26 +45,31 @@ The primary backend and frontend projects in the QuickReference family, develope
 
 ## QuickReference Projects
 
-| Project                                                         | Series       | Status                | Focus                                                                                                                                      |
-| --------------------------------------------------------------- | ------------ | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [QuickAPI-NestJS](https://github.com/desjjoh/QuickAPI-NestJS)   | **QuickAPI** | **Mature / Active**   | Primary backend reference and the most complete QuickAPI implementation.                                                                   |
-| [QuickFE-Vue3](https://github.com/desjjoh/QuickFE-Vue3)         | **QuickFE**  | **Mature / Active**   | Primary frontend reference and companion application for QuickAPI-NestJS.                                                                  |
-| [QuickAPI-Express](https://github.com/desjjoh/QuickAPI-Express) | **QuickAPI** | **Stable**            | Deliberately small Express/TypeScript API demonstrating architecture, persistence, migrations, observability, testing, CI, and deployment. |
-| [QuickAPI-FastAPI](https://github.com/desjjoh/QuickAPI-FastAPI) | **QuickAPI** | **Polishing**         | Async Python/FastAPI reference API applying the same engineering principles through Python and FastAPI conventions.                        |
-| [QuickFE-React](https://github.com/desjjoh/QuickFE-React)       | **QuickFE**  | **In Progress**       | React/TypeScript frontend reference focused on reusable application structure and frontend engineering practices.                          |
-| [QuickAPI-Spring](https://github.com/desjjoh/QuickAPI-Spring)   | **QuickAPI** | **Early Development** | Java/Spring Boot implementation of the QuickAPI engineering standard.                                                                      |
+### QuickAPI
 
-## What's Next
+Backend API and application-service reference implementations.
 
-The current focus is completing the existing **QuickReference** web application set rather than adding additional frameworks:
+| Project                                                | Status                | Focus                                                                                                                                                                                   |
+| ------------------------------------------------------ | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [NestJS](https://github.com/desjjoh/QuickAPI-NestJS)   | **Mature / Active**   | Primary backend reference and the most complete QuickAPI implementation, covering identity, sessions, authorization, auditing, background work, observability, testing, and deployment. |
+| [Express](https://github.com/desjjoh/QuickAPI-Express) | **Stable**            | Deliberately small Express/TypeScript API demonstrating architecture, persistence, migrations, observability, testing, CI, and deployment.                                              |
+| [FastAPI](https://github.com/desjjoh/QuickAPI-FastAPI) | **Polishing**         | Async Python/FastAPI reference API applying the same engineering principles through Python and FastAPI conventions.                                                                     |
+| [Spring](https://github.com/desjjoh/QuickAPI-Spring)   | **Early Development** | Java/Spring Boot implementation of the QuickAPI engineering standard.                                                                                                                   |
 
-1. finish the remaining persistence and deployment work in **QuickAPI-FastAPI**;
-2. bring **QuickFE-React** and **QuickAPI-Spring** up to the same engineering standard as the mature reference implementations;
-3. continue developing **QuickAPI-NestJS + QuickFE-Vue3** as the deepest paired example in the family.
+### QuickFE
 
-After that, **QuickGame** will expand QuickReference beyond conventional web applications.
+Frontend application and reusable UI/application architecture reference implementations.
 
-The first planned QuickGame project will use **Godot** to explore how the same engineering philosophy applies to real-time software, including:
+| Project                                           | Status              | Focus                                                                                                                                                                                                                               |
+| ------------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Vue3](https://github.com/desjjoh/QuickFE-Vue3)   | **Mature / Active** | Primary frontend reference and companion application for QuickAPI-NestJS, covering typed API integration, authentication/session behavior, reusable primitives, localization, responsive application shells, and account workflows. |
+| [React](https://github.com/desjjoh/QuickFE-React) | **In Progress**     | React/TypeScript frontend reference focused on reusable application structure and frontend engineering practices.                                                                                                                   |
+
+### QuickGame
+
+Real-time and game-software reference implementations applying the QuickReference engineering philosophy outside conventional web applications.
+
+The first QuickGame project is planned around **Godot** and a deliberately small game scope. The goal is to explore how the same engineering principles translate to concerns such as:
 
 * game and session state ownership;
 * input abstraction;
@@ -76,7 +81,20 @@ The first planned QuickGame project will use **Godot** to explore how the same e
 * CI;
 * reproducible game exports.
 
-The game itself will remain deliberately small so the emphasis stays on software design and engineering practice rather than content volume.
+The game itself will remain intentionally small so the emphasis stays on software architecture and engineering practice rather than content volume.
+
+## What's Next
+
+The current focus is completing the existing QuickReference web application set rather than adding additional frameworks.
+
+The next priorities are:
+
+1. finish the remaining persistence and deployment work in **QuickAPI-FastAPI**;
+2. bring **QuickFE-React** and **QuickAPI-Spring** up to the same engineering standard as the mature reference implementations;
+3. continue developing **QuickAPI-NestJS + QuickFE-Vue3** as the deepest paired example in the family;
+4. begin the first **QuickGame** reference project once the current web-focused set is in a consistent state.
+
+Longer term, QuickReference may expand into additional software domains where comparing engineering approaches across ecosystems is useful.
 
 ## Engineering Focus
 
