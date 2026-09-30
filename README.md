@@ -1,6 +1,6 @@
 # John Desjardins
 
-**Senior Full-Stack Software Engineer** focused on building secure, maintainable, production-minded application systems across frontend and backend boundaries.
+**Full-Stack Software Engineer** focused on building secure, maintainable, production-minded application systems across frontend and backend boundaries.
 
 My primary experience is in TypeScript application development with React, Vue, Node.js, NestJS, and Express, alongside cross-ecosystem work in Python/FastAPI and Java/Spring.
 
