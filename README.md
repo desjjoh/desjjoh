@@ -12,24 +12,24 @@ Rather than making every implementation identical, each project applies the conv
 
 The family currently includes:
 
-* **QuickAPI** — backend APIs and application services;
-* **QuickFE** — frontend applications and reusable UI/application architecture;
-* **QuickGame** — planned real-time and game-software reference projects.
+- **QuickAPI** — backend APIs and application services;
+- **QuickFE** — frontend applications and reusable UI/application architecture;
+- **QuickGame** — planned real-time and game-software reference projects.
 
 Future QuickReference series may explore other software domains where the same principles can be applied meaningfully.
 
 Across the family, the projects focus on concerns such as:
 
-* clear application and architectural boundaries;
-* explicit ownership of state and behavior;
-* validated, typed contracts where appropriate;
-* deliberate persistence and data lifecycle management;
-* security, robustness, and runtime safeguards;
-* structured logging, diagnostics, health, and observability;
-* meaningful automated testing at the appropriate layers;
-* CI-enforced quality gates;
-* reproducible builds and deployment or distribution artifacts;
-* documentation of architecture, behavior, and engineering decisions.
+- clear application and architectural boundaries;
+- explicit ownership of state and behavior;
+- validated, typed contracts where appropriate;
+- deliberate persistence and data lifecycle management;
+- security, robustness, and runtime safeguards;
+- structured logging, diagnostics, health, and observability;
+- meaningful automated testing at the appropriate layers;
+- CI-enforced quality gates;
+- reproducible builds and deployment or distribution artifacts;
+- documentation of architecture, behavior, and engineering decisions.
 
 Not every concern applies equally to every software domain. Part of QuickReference is demonstrating how engineering priorities change with the problem rather than forcing the same architecture everywhere.
 
@@ -49,21 +49,21 @@ The primary backend and frontend projects in the QuickReference family, develope
 
 Backend API and application-service reference implementations.
 
-| Project                                                | Status                | Focus                                                                                                                                                                                   |
-| ------------------------------------------------------ | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [NestJS](https://github.com/desjjoh/QuickAPI-NestJS)   | **Mature / Active**   | Primary backend reference and the most complete QuickAPI implementation, covering identity, sessions, authorization, auditing, background work, observability, testing, and deployment. |
-| [Express](https://github.com/desjjoh/QuickAPI-Express) | **Stable**            | Deliberately small Express/TypeScript API demonstrating architecture, persistence, migrations, observability, testing, CI, and deployment.                                              |
-| [FastAPI](https://github.com/desjjoh/QuickAPI-FastAPI) | **Polishing**         | Async Python/FastAPI reference API applying the same engineering principles through Python and FastAPI conventions.                                                                     |
-| [Spring](https://github.com/desjjoh/QuickAPI-Spring)   | **Early Development** | Java/Spring Boot implementation of the QuickAPI engineering standard.                                                                                                                   |
+| Project                                                | Status                  | Focus                                                                                                                                                                                    |
+| ------------------------------------------------------ | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [NestJS](https://github.com/desjjoh/QuickAPI-NestJS)   | **Flagship / Active**   | Full application backend covering identity, authorization, auditing, articles, media, persistence, observability, testing, and hardened release delivery.                                |
+| [Express](https://github.com/desjjoh/QuickAPI-Express) | **Advanced / Active**   | Focused Express and TypeScript service demonstrating explicit middleware boundaries, MySQL persistence, migrations, operational safeguards, layered testing, and container verification. |
+| [FastAPI](https://github.com/desjjoh/QuickAPI-FastAPI) | **Advanced Foundation** | Async Python service applying the QuickAPI principles through Pydantic, SQLAlchemy, ASGI middleware, lifecycle management, layered tests, and container CI.                              |
+| [Spring](https://github.com/desjjoh/QuickAPI-Spring)   | **Early Development**   | Initial Java and Spring Boot implementation establishing validated configuration and the foundation for a future QuickAPI architecture.                                                  |
 
 ### QuickFE
 
 Frontend application and reusable UI/application architecture reference implementations.
 
-| Project                                           | Status              | Focus                                                                                                                                                                                                                               |
-| ------------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Vue3](https://github.com/desjjoh/QuickFE-Vue3)   | **Mature / Active** | Primary frontend reference and companion application for QuickAPI-NestJS, covering typed API integration, authentication/session behavior, reusable primitives, localization, responsive application shells, and account workflows. |
-| [React](https://github.com/desjjoh/QuickFE-React) | **In Progress**     | React/TypeScript frontend reference focused on reusable application structure and frontend engineering practices.                                                                                                                   |
+| Project                                           | Status                | Focus                                                                                                                                                                          |
+| ------------------------------------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Vue3](https://github.com/desjjoh/QuickFE-Vue3)   | **Flagship / Active** | Application frontend paired with QuickAPI-NestJS, covering typed integration, secure session behavior, reusable UI architecture, accessibility, testing, and runtime delivery. |
+| [React](https://github.com/desjjoh/QuickFE-React) | **In Progress**       | React and TypeScript foundation focused on reusable components, design tokens, themes, localization, routing, and accessible interaction patterns.                             |
 
 ### QuickGame
 
@@ -71,15 +71,15 @@ Real-time and game-software reference implementations applying the QuickReferenc
 
 The first QuickGame project is planned around **Godot** and a deliberately small game scope. The goal is to explore how the same engineering principles translate to concerns such as:
 
-* game and session state ownership;
-* input abstraction;
-* simulation and frame-time behavior;
-* entity and scene lifecycles;
-* persistence;
-* diagnostics and debugging;
-* automated testing;
-* CI;
-* reproducible game exports.
+- game and session state ownership;
+- input abstraction;
+- simulation and frame-time behavior;
+- entity and scene lifecycles;
+- persistence;
+- diagnostics and debugging;
+- automated testing;
+- CI;
+- reproducible game exports.
 
 The game itself will remain intentionally small so the emphasis stays on software architecture and engineering practice rather than content volume.
 
