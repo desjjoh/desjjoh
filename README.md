@@ -83,19 +83,6 @@ The first QuickGame project is planned around **Godot** and a deliberately small
 
 The game itself will remain intentionally small so the emphasis stays on software architecture and engineering practice rather than content volume.
 
-## What's Next
-
-The current focus is completing the existing QuickReference web application set rather than adding additional frameworks.
-
-The next priorities are:
-
-1. finish the remaining persistence and deployment work in **QuickAPI-FastAPI**;
-2. bring **QuickFE-React** and **QuickAPI-Spring** up to the same engineering standard as the mature reference implementations;
-3. continue developing **QuickAPI-NestJS + QuickFE-Vue3** as the deepest paired example in the family;
-4. begin the first **QuickGame** reference project once the current web-focused set is in a consistent state.
-
-Longer term, QuickReference may expand into additional software domains where comparing engineering approaches across ecosystems is useful.
-
 ## Engineering Focus
 
 I am particularly interested in how robust engineering principles change across software domains: turning ambiguous requirements into systems with clear ownership, predictable behavior, maintainable boundaries, appropriate validation and testing, and enough operational or diagnostic visibility to understand the software after it leaves the development environment.
