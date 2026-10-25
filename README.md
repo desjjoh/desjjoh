@@ -85,4 +85,6 @@ The game itself will remain intentionally small so the emphasis stays on softwar
 
 ## Engineering Focus
 
-I am particularly interested in how robust engineering principles change across software domains: turning ambiguous requirements into systems with clear ownership, predictable behavior, maintainable boundaries, appropriate validation and testing, and enough operational or diagnostic visibility to understand the software after it leaves the development environment.
+I am interested in how good engineering changes depending on the kind of software being built. A backend API, frontend application, and real-time system do not need the same architecture, but they all benefit from clear ownership, understandable behavior, and decisions that can be explained. I enjoy taking unclear requirements, identifying what actually matters, and shaping them into systems that can grow without becoming difficult to change or reason about.
+
+I try to think beyond whether a feature works under ideal conditions. I consider what happens when requests are repeated, data changes unexpectedly, dependencies become unavailable, or part of an operation fails. Testing, documentation, logging, and deployment are part of that work because they help us understand whether the software behaves as intended after it leaves the development environment. At the same time, I do not believe every problem needs another layer or abstraction. Complexity should have a clear purpose, and the best solution is often the simplest one that remains safe, maintainable, and ready to grow.
