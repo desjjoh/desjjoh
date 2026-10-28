@@ -52,7 +52,7 @@ Backend API and application-service reference implementations.
 | ------------------------------------------------------ | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [NestJS](https://github.com/desjjoh/QuickAPI-NestJS)   | **Flagship / Active**   | Full application backend covering identity, authorization, auditing, media, persistence, observability, testing, and hardened release delivery.                                |
 | [Express](https://github.com/desjjoh/QuickAPI-Express) | **Advanced / Active**   | Focused Express and TypeScript service demonstrating explicit middleware boundaries, MySQL persistence, migrations, operational safeguards, layered testing, and container verification. |
-| [FastAPI](https://github.com/desjjoh/QuickAPI-FastAPI) | **Advanced Foundation** | Async Python service applying the QuickAPI principles through Pydantic, SQLAlchemy, ASGI middleware, lifecycle management, layered tests, and container CI.                              |
+| [FastAPI](https://github.com/desjjoh/QuickAPI-FastAPI) | **Advanced / Active** | Async Python service applying the QuickAPI principles through Pydantic, SQLAlchemy, ASGI middleware, lifecycle management, layered tests, and container CI.                              |
 | [Spring](https://github.com/desjjoh/QuickAPI-Spring)   | **Early Development**   | Initial Java and Spring Boot implementation establishing validated configuration and the foundation for a future QuickAPI architecture.                                                  |
 
 ### QuickFE
@@ -62,7 +62,7 @@ Frontend application and reusable UI/application architecture reference implemen
 | Project                                           | Status                | Focus                                                                                                                                                                          |
 | ------------------------------------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [Vue3](https://github.com/desjjoh/QuickFE-Vue3)   | **Flagship / Active** | Application frontend paired with QuickAPI-NestJS, covering typed integration, secure session behavior, reusable UI architecture, accessibility, testing, and runtime delivery. |
-| [React](https://github.com/desjjoh/QuickFE-React) | **In Progress**       | React and TypeScript foundation focused on reusable components, design tokens, themes, localization, routing, and accessible interaction patterns.                             |
+| [React](https://github.com/desjjoh/QuickFE-React) | **Early Development** | React and TypeScript foundation focused on reusable components, design tokens, themes, localization, routing, and accessible interaction patterns.                             |
 
 ## Engineering Focus
 
