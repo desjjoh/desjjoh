@@ -70,7 +70,7 @@ Game projects exploring how engineering principles change in real-time, interact
 
 | Project | Status | Focus |
 | --- | --- | --- |
-| [Godot 2D Platformer](https://github.com/desjjoh/QuickGame-Godot2D-SMB-) | **Early Development** | Godot 4.7 platformer reference exploring scene ownership, player state machines, movement and jumping, animation, audio, camera behavior, regression scenes, and clearly documented fidelity limits. |
+| [Godot 2D (Platformer)](https://github.com/desjjoh/QuickGame-Godot2D-SMB-) | **Early Development** | Godot 4.7 platformer reference exploring scene ownership, player state machines, movement and jumping, animation, audio, camera behavior, regression scenes, and clearly documented fidelity limits. |
 
 ## Engineering Focus
 
