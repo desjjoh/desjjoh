@@ -71,7 +71,7 @@ Game projects exploring how engineering principles change in real-time, interact
 
 | Project                                                              | Status                | Focus                                                                                                                                                                         |
 | -------------------------------------------------------------------- | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [GD Mario Bros.](https://github.com/desjjoh/QuickGame-GD-Mario-Bros) | **Early Development** | Godot 4.7 platformer reference exploring scene ownership, finite state machines, movement and jumping, animation, audio, camera behavior, and reusable gameplay architecture. |
+| [Super Mario GD](https://github.com/desjjoh/QuickGame-GD-Mario-Bros) | **Early Development** | Godot 4.7 platformer reference exploring scene ownership, finite state machines, movement and jumping, animation, audio, camera behavior, and reusable gameplay architecture. |
 
 ## Engineering Focus
 
