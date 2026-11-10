@@ -14,7 +14,6 @@ The family currently includes:
 
 - **QuickAPI** — backend APIs and application services;
 - **QuickFE** — frontend applications and reusable UI/application architecture;
-- **QuickGAME** — game projects exploring real-time behavior, engine architecture, and gameplay systems.
 
 Future QuickReference series may explore other software domains where the same principles can be applied meaningfully.
 
@@ -63,14 +62,6 @@ Frontend application and reusable UI/application architecture reference implemen
 | ------------------------------------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [Vue3](https://github.com/desjjoh/QuickFE-Vue3)   | **Flagship / Active** | Application frontend paired with QuickAPI-NestJS, covering typed integration, secure session behavior, reusable UI architecture, accessibility, testing, and runtime delivery. |
 | [React](https://github.com/desjjoh/QuickFE-React) | **Early Development** | React and TypeScript foundation focused on reusable components, design tokens, themes, localization, routing, and accessible interaction patterns.                             |
-
-### QuickGAME
-
-Game projects exploring how engineering principles change in real-time, interactive software. These projects focus on areas such as scene and state ownership, input, movement, timing, presentation, lifecycle management, and preserving understandable behavior as gameplay systems become more complex.
-
-| Project | Status | Focus |
-| --- | --- | --- |
-| [GD Mario Bros.](https://github.com/desjjoh/QuickGame-GD-Mario-Bros) | **Early Development** | Godot 4.7 platformer reference exploring scene ownership, finite state machines, movement and jumping, animation, audio, camera behavior, and reusable gameplay architecture. |
 
 ## Engineering Focus
 
