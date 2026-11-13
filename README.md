@@ -69,9 +69,9 @@ Frontend application and reusable UI/application architecture reference implemen
 
 Game projects exploring how engineering principles change in real-time, interactive software. These projects focus on areas such as scene and state ownership, input, movement, timing, presentation, lifecycle management, and preserving understandable behavior as gameplay systems become more complex.
 
-| Project                                                              | Status                | Focus                                                                                                                                                                         |
-| -------------------------------------------------------------------- | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Super Mario GD](https://github.com/desjjoh/QuickGame-Super-Mario-GD) | **Early Development** | Godot 4.7 platformer reference exploring scene ownership, finite state machines, movement and jumping, animation, audio, camera behavior, and reusable gameplay architecture. |
+| Project                                                              | Status                 | Focus                                                                                                                                                                         |
+| -------------------------------------------------------------------- | ---------------------  | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Super Mario GD](https://github.com/desjjoh/QuickGame-Super-Mario-GD) | **Advanced / Active** | Godot 4.7 platformer reference exploring scene ownership, finite state machines, movement and jumping, animation, audio, camera behavior, and reusable gameplay architecture. |
 
 ## Engineering Focus
 
